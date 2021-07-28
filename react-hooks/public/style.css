@@ -54,7 +54,7 @@ label {
   margin-bottom: 0.25rem;
 }
 
-input,
+input[type='text'],
 textarea {
   display: block;
   border: 1px solid #ccc;
@@ -63,9 +63,10 @@ textarea {
   border-radius: var(--radius);
   background: #eee;
   transition: 0.2s;
+  margin-bottom: 1rem;
 }
 
-input:focus,
+input[type='text']:focus,
 textarea:focus {
   outline: none;
   border-color: var(--color);
